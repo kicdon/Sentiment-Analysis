@@ -44,7 +44,7 @@ train_reviews = preprocess_reviews(train_reviews)
 test_reviews = preprocess_reviews(test_reviews)
 
 
-"""利用朴素贝叶斯分类器进行训"""
+"""利用朴素贝叶斯分类器进行训练"""
 train_reviews_text=[' '.join(train_review) for train_review in train_reviews]
 test_reviews_text=[' '.join(test_review) for test_review in test_reviews]
 vectorizer=CountVectorizer()
